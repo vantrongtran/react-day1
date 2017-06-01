@@ -1,0 +1,402 @@
+#content {
+  padding: 0 0px;
+  background-size: 100%;
+  min-width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+
+a {
+  color: #0e106a;
+}
+
+.tbVisible {
+  display: none;
+}
+
+@media screen and (max-width: 999px) {
+  .tbVisible {
+    display: block;
+  }
+}
+/*--- clear---------------------*/
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#content {
+  padding: 0 0px;
+  background-size: 100%;
+  min-width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 999px) {
+  #content {
+    min-width: inherit;
+    max-width: inherit;
+    padding: 0 20px;
+  }
+}
+.column2 {
+  overflow: hidden;
+  *zoom: 1;
+}
+.column2 .box {
+  float: left;
+  width: 47%;
+  margin-right: 6%;
+}
+.column2 .box:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.column3 {
+  overflow: hidden;
+  *zoom: 1;
+}
+.column3 .box {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+}
+.column3 .box:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.column4 {
+  overflow: hidden;
+  *zoom: 1;
+}
+.column4 .box {
+  float: left;
+  width: 23.5%;
+  margin-left: 2%;
+}
+.column4 .box:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 999px) {
+  .column4 .box {
+    width: 48%;
+    margin-left: 2%;
+  }
+  .column4 .box:first-of-type {
+    margin-left: 0;
+  }
+  .column4 .box:nth-of-type(odd) {
+    margin-left: 0;
+  }
+}
+
+
+/*  iconSet -----------*/
+i.icoRight {
+  padding-left: 5px;
+}
+
+i.icoLeft {
+  padding-right: 5px;
+}
+
+
+/*  btn -----------*/
+.btn {
+  font-weight: 200;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  text-align: center;
+}
+.btn.small {
+  font-size: 1.3rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-left: 15px;
+  line-height: 13px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+.btn.small i {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 13px;
+  vertical-align: top;
+}
+.btn.medium {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 15px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+.btn.medium i {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 15px;
+  vertical-align: top;
+}
+.btn.large {
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 60px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+}
+.btn.default {
+  border-color: #0e106a;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #0e106a;
+  color: #FFF;
+}
+.btn.default:hover {
+  background-color: rgba(14, 16, 106, 0.8);
+}
+.btn.minimise {
+  border-color: #777;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #777;
+  color: #FFF;
+}
+.btn.minimise:hover {
+  border-color: #999;
+  background-color: #999;
+}
+.btn.outline {
+  font-weight: 500;
+  border-color: #0e106a;
+  border-width: 1px;
+  border-style: solid;
+  color: #0e106a;
+  background-color: #FFF;
+}
+.btn.outline:hover {
+  background-color: rgba(14, 16, 106, 0.1);
+}
+.btn[disabled="disabled"] {
+  opacity: 0.2;
+  cursor: default;
+}
+.btn[disabled="disabled"].default:hover {
+  background-color: #0e106a;
+}
+
+
+/*  title -----------*/
+#content h1 {
+  font-size: 3.0rem;
+  font-weight: 200;
+  padding: 40px 0;
+}
+
+
+textarea {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #999;
+  background-color: #FFF;
+  font-size: 1.5rem;
+  height: 15em;
+  padding: 10px;
+}
+
+select {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #999;
+  background-color: #FFF;
+  font-size: 1.3rem;
+  height: 36px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #999;
+  background-color: #FFF;
+  font-size: 1.3rem;
+  height: 36px;
+}
+
+input[name="strLoginID"],
+input[name="strMail"],
+input[name="strPreregistMail"] {
+  width: 50%;
+}
+
+input[name="strCurrentPassword"],
+input[name="strNewPassword"],
+input[name="strNewConfirm"],
+input[name="strNew"],
+input[name="strPassword"],
+input[name="strConfirm"] {
+  width: 20em;
+}
+
+textarea.contactTxt {
+  width: 80%;
+}
+
+/*----------------------------------*/
+.formBox {
+  padding-bottom: 40px;
+}
+.formBox.singleCheck {
+  text-align: center;
+}
+.formBox.singleCheck label {
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.formBox.singleCheck label:hover {
+  color: #0e106a;
+}
+.formBox.singleCheck label .icheckbox_square-blue {
+  margin-right: 5px;
+}
+
+.labelArea {
+  float: left;
+  width: 20%;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #0e106a;
+  position: relative;
+  padding-left: 15px;
+}
+.labelArea::before {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  content: "";
+  display: block;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background-color: #0e106a;
+}
+
+@media screen and (max-width: 999px) {
+  .labelArea {
+    width: 27%;
+  }
+}
+.inputArea {
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 10px;
+  position: relative;
+}
+.confirm .inputArea {
+  font-size: 1.5rem;
+}
+.inputArea input[type="text"], .inputArea input[type="password"] {
+  line-height: 34px;
+  padding: 0 10px;
+}
+.inputArea.multi span.tx {
+  margin-right: 20px;
+}
+.inputArea.multi input, .inputArea.multi select {
+  margin-right: 20px;
+}
+.inputArea.icoInput input[type="text"], .inputArea.icoInput input[type="password"] {
+  padding-left: 44px;
+}
+
+.inputArea .att {
+  position: relative;
+  padding-left: 1.2em;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+.inputArea .att i {
+  position: absolute;
+  left: 0;
+  top: 1em;
+}
+.confirm .inputArea .att {
+  display: none;
+}
+
+.btnSet {
+  text-align: center;
+}
+.btnSet .btn {
+  margin: 0 15px;
+}
+.btnSet .btn.medium {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 1.5rem;
+}
+
+/* error ---------- */
+.formBox.errorSet .inputArea textarea,
+.formBox.errorSet .inputArea input {
+  border-color: #D00;
+  border-width: 2px;
+}
+
+.formBox .error {
+  padding-top: 10px;
+  color: #D00;
+}
+.formBox .error i {
+  display: inline-block;
+  padding-right: 3px;
+}
+.formBox .error a {
+  text-decoration: underline;
+}
+.formBox .error a:hover {
+  text-decoration: none;
+}
+
+.confirm .formBox .error {
+  display: none;
+}
